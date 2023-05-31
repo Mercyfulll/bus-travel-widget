@@ -1,0 +1,51 @@
+.container{
+    background-color: #989eec;
+    padding-left: 3em;
+    padding-bottom: 2em;
+}
+.icon1,.top{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+.icon{
+    display: flex;
+}
+.start {
+    
+    display: inline-block;
+    padding: 0.7em;
+    border-radius: 10px;
+}
+select{
+    background:url(down-arrow.png) no-repeat right white;
+}
+label{
+    display: inline-block;
+    padding: 0.7em;
+    padding-right: 7em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+input{
+    padding: 0.5em;
+    border-radius: 10px;
+}
+button{
+   padding: 1em;
+   border-radius: 10px;
+   padding-left: 1em;
+   padding-right: 1em ;
+}
+.option{
+    margin-top: 1em;
+}
+.fulltrip,
+.returntrips,
+.tripnumber,
+.pricetrip{
+    background-color: grey;
+    text-align: center;
+    margin: 0.2em;
+}
+

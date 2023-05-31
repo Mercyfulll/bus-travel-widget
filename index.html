@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <img src="bus (1).png" class="bus icons" alt="" width="50" height="50">
+            <h1> Bus Travel Widget</h1>
+        </div>
+        <div class="text">
+            <label>Points:</label>
+            <input type="text" class="points"><br>
+            <label >Start location</label>
+                <select class="start">
+                    <option value="Khayelitsha">Khayelitsha</option>
+                    <option value="Dunoon">Dunoon</option>
+                    <option value="Mitchells Plain">Mitchells Plain</option>
+                </select>
+        </div>
+        <div class="options">
+            <div class="icon">
+                <img src="bus (2).png" alt="" width="50" height="50">
+                <h2>Travel Times:</h2><br>
+             </div>
+            <input type="radio" name="radioBtn" value="peak">
+            <label>Peak</label>
+            <input type="checkbox" class="checkbox" value="peak">
+            <label>Return Trip</label><br>
+            <input type="radio" name="radioBtn" value="offpeak">
+            <label>Off Peak</label>
+            <button class="calculate">Calculate</button>
+        </div>
+        <div class="claculations">
+            <div class="icon1">
+                <img src="math.png" alt="" width="50" height="50">
+                <h2>Calculations</h2>
+            </div>
+            <label>Number of single trips:</label>
+            <label class="tripnumber">0</label><br>
+            <label>Price per trip</label>
+            <label class="pricetrip">0</label><br>
+            <label>Number of Return Trips</label>
+            <label class="returntrips">0</label><br>
+            <label>Price per trip(return):</label>
+            <label class="fulltrip">0</label><br>
+        </div>
+    </div>
+    <script src="bus-travel.js"></script>
+    <script src="bus-travel-dom.js"></script>
+</body>
+</html>
